@@ -180,6 +180,10 @@ components:
           type: string
           format: date
           description: The date that the user was created.
+        age:
+          type: integer
+        married:
+          type: boolean
       required:
         - id
         - firstName
